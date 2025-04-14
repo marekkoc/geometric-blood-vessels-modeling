@@ -24,7 +24,7 @@ The blood vessel tree geometric modeling algorithm is shown in Fig. 1 (Materka 2
 On cross-section planes, an intensity profile model is fitted to account for vessel edge blurring caused by MR signal averaging within voxels and other effects, collectively representing the MR scanner's "impulse response" or "point spread function." The intensity profile along radial directions from the vessel centerline point (Fig. 2a) is continuous and analytically defined (Materka 1991, 2015). Model fitting yields local values of background intensity, vessel interior intensity jump, and vessel radius.
 <br>
 <table align="center">
-  <tr><td align="center"><img src="figs/fig2.png" alt="fig12></td></tr>
+  <tr><td align="center"><img src="figs/fig2.png" alt="fig2"></td></tr>
   <tr><td align="center"><i><span style="font-size:smaller;">Fig. 2 a) Radial directions on a vessel cross-section plane for intensity profile fitting, b) example of consicutive cross-sections of a vessel featuring thin bifurcating branch, c) results of fitting the profile along 45&deg; and 67.5&deg; directions</span></i></td></tr>
 </table>
 <br>
