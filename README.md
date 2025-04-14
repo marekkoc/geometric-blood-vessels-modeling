@@ -92,3 +92,7 @@ They are realistic possibilities of further improvements in the modeling method 
 1. (Vinhais 2018) C. Vinhais, M. Kociński, A. Materka, Centerline-Radius Polygonal-Mesh Modeling of Bifurcated Blood Vessels in 3D Images using Conformal Mapping, 2018 Signal Processing: Algorithms, Architectures, Arrangements, and Applications (SPA), Poznań, ([link](https://doi.org/10.23919/SPA.2018.8563388)).
 1. (Woźniak 2017) T. Woźniak, M. Strzelecki, A. Majos, L. Stefańczyk, 3D vascular tree segmentation using a multiscale vesselness function and a level set approach, Biocybernetics and Biomedical Engineering 37, 2017, pp. 66-77, ([link](https://doi.org/10.1016/j.bbe.2016.11.003)).
 
+--- 
+## Project Information
+
+The project was carried out from 2003 to 2019 at the [Institute of Electronics](https://ie.p.lodz.pl/en/about-institute-electronics), [Lodz University of Technology](https://p.lodz.pl/en), headed by [Prof. Andrzej Materka](https://p.lodz.pl/en/research/most-prominent-scientists/professor-andrzej-materka), in close partnership with [Friedrich Schiller University Jena](https://www.uni-jena.de/en) led by [Prof. Dr. Jürgen Reichenbach](https://www.mscj.uni-jena.de/staff/prof-dr-jurgen-reichenbach/) and the [University of Bergen](https://www.uib.no/en) with consultations from [Prof. Arvid Lundervold](https://www4.uib.no/en/find-employees/Arvid.Lundervold).
