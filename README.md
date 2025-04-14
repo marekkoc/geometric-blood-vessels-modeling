@@ -15,18 +15,24 @@ Traditional blood vessel modeling first applies image segmentation (like intensi
 In this project, continuous (analog) models representing key MR image formation processes were used. Parametric models of these phenomena were defined and locally tuned to fit the spatial intensity distribution. This approach enabled quantitative evaluation of important blood vessel geometric properties in continuous space.
 
 The blood vessel tree geometric modeling algorithm is shown in Fig. 1 (Materka 2015). The tree image undergoes multiscale Frangi "vesselness" filtering based on Hessian computation at each point. This filter enhances elongated vessel structures while suppressing background intensity. The filtered result is thresholded, and a skeleton of binary regions is extracted. In our method, segments between tree bifurcations are approximated by smooth differentiable functions of three spatial coordinates. This enables calculation of centerline tangent vectors and perpendicular planes (local cross-sections). Consequently, azimuth and elevation angles become resistant to random fluctuations and intensity jumps common in ToF images.
+<br>
 <table align="center">
   <tr><td align="center"><img src="figs/fig1.png" alt="fig1"></td></tr>
   <tr><td align="center"><i><span style="font-size:smaller;">Fig. 1 A geometric modeling algorithm for arteries (time of flight, ToF) and veins (quantitative susceptibility imaging, QSM) in MR techique</span></i></td></tr>
 </table>
+<br>
+On cross-section planes, an intensity profile model is fitted to account for vessel edge blurring caused by MR signal averaging within voxels and other effects, collectively representing the MR scanner's "impulse response" or "point spread function." The intensity profile along radial directions from the vessel centerline point (Fig. 2a) is continuous and analytically defined (Materka 1991, 2015). Model fitting yields local values of background intensity, vessel interior intensity jump, and vessel radius.
+<br>
+<table align="center">
+  <tr><td align="center"><img src="figs/fig2.png" alt="fig12></td></tr>
+  <tr><td align="center"><i><span style="font-size:smaller;">Fig. 2 a) Radial directions on a vessel cross-section plane for intensity profile fitting, b) example of consicutive cross-sections of a vessel featuring thin bifurcating branch, c) results of fitting the profile along 45&deg; and 67.5&deg; directions</span></i></td></tr>
+</table>
+<br>
 
 
 
 
 
-
-
-On the cross-section planes, an intensity profile model is fitted to take account of vessel edge blurring originating in MR signal averaging inside the voxel space and other effects, jointly representing the MR scanner “impulse response” or “point spread function”. The intensity profile along radial directions around the vessel centerline point (Fig. 2a) is continuous and given analytically (Materka 1991), (Materka 2015). The results of model fitting are local values of background intensity, intensity jump inside the vessel and the vessel radius.
 
 Vessel segments between bifurcations are described by sets of centerline points, each attributed a tangent vector and radius, Fig. 3a. This description allows easy approximation of the surface of the vessel walls by a triangular mesh, Fig. 3b. By applying these steps to all the vascular tree segments of the skeleton, one obtains the whole geometric model of the macroscopic part of the artery (ToF) and vein (QSM) trees visualized in the images, Fig. 3c.
 
