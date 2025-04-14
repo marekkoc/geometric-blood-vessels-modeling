@@ -1,7 +1,7 @@
 # Geometric modeling of blood vessels
 
 <div align="right">
-  <img src="figs/do/bergen_head.gif" width="200">
+  <img src="figs/bergen_head.gif" width="200">
 </div>
 
 ## Introduction
