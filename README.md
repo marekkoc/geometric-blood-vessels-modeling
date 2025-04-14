@@ -25,7 +25,7 @@ On cross-section planes, an intensity profile model is fitted to account for ves
 <br>
 <table align="center">
   <tr><td align="center"><img src="figs/fig2.png" alt="fig2"></td></tr>
-  <tr><td align="center"><i><span style="font-size:smaller;">Fig. 2 a) Radial directions on a vessel cross-section plane for intensity profile fitting, b) example of consicutive cross-sections of a vessel featuring thin bifurcating branch, c) results of fitting the profile along 45&deg; and 67.5&deg; directions</span></i></td></tr>
+  <tr><td align="center"><i><span style="font-size:smaller;">Fig. 2 a) Radial directions on a vessel cross-section plane for intensity profile fitting, b) example of consicutive cross-sections of a vessel featuring thin bifurcating branch, c) results of fitting the profile along 45 and 67.5 directions</span></i></td></tr>
 </table>
 <br>
 
