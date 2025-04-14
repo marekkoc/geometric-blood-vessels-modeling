@@ -37,5 +37,25 @@ Vessel segments between bifurcations are represented by sets of centerline point
 <br>
 The reconstructed segments of the vessel tree are coupled together via dedicated T-junctions to model the bifurcations, Fig. 3d, developed with the use of computer graphics techniques (Kociński 2016), Vinhais 2018). The assumption of circular vessel branch shape can be easily relaxed to move the nodes of the triangular mesh to the actual vessel tree surface, with a small number of iterative refinements (Vinhais 2018).
 
+## Results
+The developed geometric models are "waterproof," enabling creation of physical vessel tree models (e.g., plastic phantoms) compatible with MR scanners. Such phantoms were designed based on selected arterial branches from a real brain and manufactured using a 3D printer (Fig. 4a, Kociński 2017a). These printed phantoms were submerged in water and placed in a clinical MR scanner to acquire typical low-resolution T2-weighted images. After image preprocessing, the algorithm from Fig. 1 was applied. The resulting geometric model of connected branches was compared with the original (Fig. 4b-d), showing excellent agreement in branch shape and vessel radius.
+<br>
+<table align="center">
+  <tr><td align="center"><img src="figs/fig4.png" alt="fig4"></td></tr>
+  <tr><td align="center"><i><span style="font-size:smaller;">Fig. 4 a) A photography of a few 3D printed phantom manufactured on the basis of the model of real vessel extracted from a ToF image, b) wall surface of the thicker branch, c) the surface of the thinner branch, d) radius estimated along the centerline (red - model extracted from brain ToF image, blue - 3D 
+ printed model).</span></i></td></tr>
+</table>
+<br>
+
+
+
+
+
+In (Klepaczko 2015) a computer simulator of the MR scanner (Klepaczko 2014) was used to generate phase contrast angiography (PCA) images of a geometric phantom of a carotid artery, Fig. 5a. The intensity of PCA images is an approximation to the magnitude of local velocity vector of blood cells. The fitted intensity profile model was a parabolic function (under the assumption of laminar flow).
+
+
+
+
+A computer program was developed to adapt the Karch algorithm to simulate the growth of vessel trees in the mezoscopic scale (arterioles and venules). The simulated trees were connected to the macroscopic-scale branches, to mimic the supply of the neighboring cortex regions with blood, Fig. 6b. The surface of the cortex (gray matter) was approximated with a triangular mesh based on segmented T2-weighted image, acquired for the same subject, Fig. 6a.
 
 
