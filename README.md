@@ -46,12 +46,15 @@ The developed geometric models are "waterproof," enabling creation of physical v
  printed model).</span></i></td></tr>
 </table>
 <br>
+In Klepaczko (2015), an MR scanner computer simulator (Klepaczko 2014) was used to generate phase contrast angiography (PCA) images of a carotid artery geometric phantom (Fig. 5a). PCA image intensity approximates the magnitude of blood cells' local velocity vector. A parabolic function was used as the fitted intensity profile model, assuming laminar flow.
+<br>
+<table align="center">
+  <tr><td align="center"><img src="figs/fig5.png" alt="fig5"></td></tr>
+  <tr><td align="center"><i><span style="font-size:smaller;">Fig. 5 a) Visualization of a digital phantom of cartoid artery with stenosis, b),c),d) blood velocity profile fitted to cross-sections marked in red on a), from left to right.</span></i></td></tr>
+</table>
+<br>
 
 
-
-
-
-In (Klepaczko 2015) a computer simulator of the MR scanner (Klepaczko 2014) was used to generate phase contrast angiography (PCA) images of a geometric phantom of a carotid artery, Fig. 5a. The intensity of PCA images is an approximation to the magnitude of local velocity vector of blood cells. The fitted intensity profile model was a parabolic function (under the assumption of laminar flow).
 
 
 
