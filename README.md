@@ -28,12 +28,19 @@ On cross-section planes, an intensity profile model is fitted to account for ves
   <tr><td align="center"><i><span style="font-size:smaller;">Fig. 2 a) Radial directions on a vessel cross-section plane for intensity profile fitting, b) example of consicutive cross-sections of a vessel featuring thin bifurcating branch, c) results of fitting the profile along 45&deg; and 67.5&deg; directions</span></i></td></tr>
 </table>
 <br>
+Vessel segments between bifurcations are represented by sets of centerline points, each with an associated tangent vector and radius (Fig. 3a). This description facilitates approximation of vessel wall surfaces using triangular meshes (Fig. 3b). Applying these steps to all vascular tree segments in the skeleton produces a complete geometric model of the macroscopic portions of artery (ToF) and vein (QSM) trees visualized in the images (Fig. 3c).
+<br>
+<table align="center">
+  <tr><td align="center"><img src="figs/fig3.png" alt="fig3"></td></tr>
+  <tr><td align="center"><i><span style="font-size:smaller;">Fig. 3 Illustration of the  the elements of the vessel segment model (centerline in blue, tangent vectors in red, circular cross-sections in yellow), b) triangular mesh modeling the inner walls of the segment, c) arterial tree branches extracted from brain ToF image (in red) and venous branches from QSM (in blue), d) geometric model of example branches together with a "waterpfoof" T-junctions (bifurcations). </span></i></td></tr>
+</table>
+<br>
 
 
 
 
 
 
-Vessel segments between bifurcations are described by sets of centerline points, each attributed a tangent vector and radius, Fig. 3a. This description allows easy approximation of the surface of the vessel walls by a triangular mesh, Fig. 3b. By applying these steps to all the vascular tree segments of the skeleton, one obtains the whole geometric model of the macroscopic part of the artery (ToF) and vein (QSM) trees visualized in the images, Fig. 3c.
+
 
 The reconstructed segments of the vessel tree are coupled together via dedicated T-junctions to model the bifurcations, Fig. 3d, developed with the use of computer graphics techniques (Kociński 2016), Vinhais 2018). The assumption of circular vessel branch shape can be easily relaxed to move the nodes of the triangular mesh to the actual vessel tree surface, with a small number of iterative refinements (Vinhais 2018).
