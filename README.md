@@ -53,12 +53,14 @@ In Klepaczko (2015), an MR scanner computer simulator (Klepaczko 2014) was used 
   <tr><td align="center"><i><span style="font-size:smaller;">Fig. 5 a) Visualization of a digital phantom of cartoid artery with stenosis, b),c),d) blood velocity profile fitted to cross-sections marked in red on a), from left to right.</span></i></td></tr>
 </table>
 <br>
+A computer program was developed to adapt the Karch algorithm for simulating vessel tree growth at the mesoscopic scale (arterioles and venules). These simulated trees were connected to macroscopic-scale branches to model blood supply to adjacent cortex regions (Fig. 6b). The cortex (gray matter) surface was approximated using a triangular mesh derived from a segmented T2-weighted image from the same subject (Fig. 6a).
+<br>
+<table align="center">
+  <tr><td align="center"><img src="figs/fig6.png" alt="fig6"></td></tr>
+  <tr><td align="center"><i><span style="font-size:smaller;">Fig. 6 a) Model of arterial (in red) and venous (in blue) branches superimposed on the surface of brain gray matter (in gray), b) selected region of brain cortex (light blue) connected via Karch-algorithm-synthesized thin arteriole trees with an artery located within the region fissure, c) A photomicrograph of corrosive model of microscopic brain blood vessels (A. Rodriges-Baeza and M. Ortega-Sanchez, Portrets of the Mind, 2010, pp. 216-217, reproduced with kind permission of the authors).</span></i></td></tr>
+</table>
+<br>
 
 
-
-
-
-
-A computer program was developed to adapt the Karch algorithm to simulate the growth of vessel trees in the mezoscopic scale (arterioles and venules). The simulated trees were connected to the macroscopic-scale branches, to mimic the supply of the neighboring cortex regions with blood, Fig. 6b. The surface of the cortex (gray matter) was approximated with a triangular mesh based on segmented T2-weighted image, acquired for the same subject, Fig. 6a.
 
 
