@@ -81,7 +81,6 @@ They are realistic possibilities of further improvements in the modeling method 
    - [3D image texture analysis of simulated and real-world vascular trees](https://github.com/marekkoc/vascular-tree-3D-texture-analysis)
    - [Assessment of brain tumor vascularizaton](https://github.com/marekkoc/brain-tumor-vascularization/tree/main)
    - [Polygonal-Mesh Modeling of Bifurcated Blood Vessels using Conformal Mapping](https://github.com/marekkoc/VesselMesh3D-Conformal/tree/main)
-   - Numerical modeling of the cerebral arterial and venous blood-vessel system in macro-and meso-scale based on 3D MRI data
    - Validation of blood vessel segmentation algorithms
    - Exhange model between blood vessel and surrounding tissue
    - "MRI simulator" of computer simulated vascular trees
