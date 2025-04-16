@@ -77,6 +77,16 @@ AS illustrated in Fig. 6a, location of arteries and brain cortex surface can be 
 They are realistic possibilities of further improvements in the modeling method and increase of its accuracy, with the use of deep learning algorithms (Jurek 2020).
 
 --- 
+## Related projects
+   - [3D image texture analysis of simulated and real-world vascular trees](https://github.com/marekkoc/vascular-tree-3D-texture-analysis)
+   - [Assessment of brain tumor vascularizaton](https://github.com/marekkoc/brain-tumor-vascularization/tree/main)
+   - Numerical modeling of the cerebral arterial and venous blood-vessel system in macro-and meso-scale based on 3D MRI data
+   - Validation of blood vessel segmentation algorithms
+   - Exhange model between blood vessel and surrounding tissue
+   - "MRI simulator" of computer simulated vascular trees
+   - Computer simulation of vascular tree growth and blood flow simulation through porus tissue   
+
+---
 ## Publication
 
 1. (Blumenfeld 2015) J. Blumenfeld, M. Kociński, A. Materka, A centerline-based algorithm for estimation of blood vessels radii from 3D raster images, IEEE Signal Processing, Algorithms, Arrangements and Applications (SPA), 2015, pp. 38-43, Poznań, ([link](https://doi.org/10.1109/SPA.2015.7365110)).
